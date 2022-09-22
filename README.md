@@ -7,7 +7,7 @@
 #
 ### SOBRE
 
-- Diretório contendo desenvolvimento dos exercícios na disciplina de Programação Web(PW) na Etec Cidade Tiradentes em 2022.
+- Diretório contendo desenvolvimento dos exercícios na disciplina de Programação Web(PW) na Etec Cidade Tiradentes em 2021.
 - Possui pequenos projetos submetidos como proposta de solução, com o intuito de atender aos requisitos solicitados.
 
 #
