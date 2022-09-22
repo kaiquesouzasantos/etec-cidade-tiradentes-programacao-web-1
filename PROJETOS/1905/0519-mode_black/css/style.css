@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+	background:#262626;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+/* MENU */
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+	display: flex;
+}
+
+
+header{
+	background-color:black;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(200,200,200);
+}
+
+
+.logo{
+	color: white;
+}
+
+.logo h2{
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.menu{
+	width: 88%;
+	text-align: right;
+}
+
+.menu a{
+	color:white;
+	font-size: 17px;
+	text-decoration: none;
+	margin-right: 20px;
+	font-family: "Poppins", sans-serif;
+}
+
+.menu a:hover{
+	color: #007bff;
+}
+
+.menu .btn-menu{
+	background:linear-gradient(45deg, #eeff00, #ac0000);
+	display: inline-block;
+	padding:8px 16px;
+	color: white;
+	border-radius: 6px;
+}
+.menu .btn-menu:hover{
+	background:linear-gradient(45deg,#ac0000, #7c7c7c);
+	color: white;
+}
+
+/* TEXTO */
+.main_cta{
+	width: 100%;
+	margin:60px 0 ;
+	text-align:justify;
+	font-size:"Poppins", sans-serif;
+}
+.main_cta h2{
+	color:white; 
+	font-size: 40px;
+	text-align: center;
+	background:linear-gradient(45deg, #eeff00, #ac0000);
+	border-radius: 10px;
+}
+
+.main_cta p{
+	color: white;
+	font-size: 19px;
+	margin: 15px 15px;
+}
+
+.centerv { 
+    width: 600px; 
+    height: 340px;
+	margin: 0 auto;
+	display: flex;
+}
+/* IMAGEM FUNCIONAL */
+.card_p {
+    display:flex;
+	justify-content: space-evenly;
+	margin-bottom: 2rem;
+}
+
+.card {
+	width: 18rem;
+	height: 25rem;
+	position: relative;
+}
+  
+.card-img-wrapper {
+	width: 100%;
+	height: 100%;
+	background-color:black;
+	border-radius: 0.5rem;
+}
+  
+.card-img-wrapper img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.5rem;
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+  
+.card:hover .card-img-wrapper img {
+	opacity: 0.5;
+}
+  
+.card-info {
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	visibility: hidden;
+	padding: 2rem;
+	text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+	transition: all 0.3s;
+}
+  
+.card-info h2 {
+	font-family: var(--font-primary);
+	font-size: 2rem;
+	font-weight: 500;
+	color: #eee;
+}
+  
+.card-info h3 {
+	font-family: var(--font-action);
+	font-weight: bolder;
+	color:#cfe600;
+	margin-bottom: 1.5rem;
+}
+  
+.card-info p {
+	font-family: var(--font-secundary);
+	color: #eee;
+	font-weight: 400;
+	width: 80%;
+	margin-bottom: 2rem;
+}
+
+.card-info button {
+	width: 8rem;
+	height: 2.5rem;
+}
+
+.card:hover .card-info {
+	bottom: 2rem;
+	opacity: 1;
+	visibility: visible;
+}
+/* CONTATO */
+.contato {
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(45deg, #eeff00, #ac0000);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  
+.contato-wrapper {
+	width: 60%;
+	height: 37rem;
+	display: flex;
+	box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+  
+.contato-left {
+	width: 35%;
+	background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9));
+
+	background-size: cover;
+}
+  
+.contato-right {
+	width: 80%;
+	background-color: #eee;
+	padding: 1rem 3rem 3rem 3rem;
+}
+  
+.contato h1 {
+	width: 100%;
+	text-align: center;
+	color: black; 
+	font-size: 40px;
+}
+  
+.contato form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+  
+
+.input-group {
+	position: relative;
+}
+
+.field {
+	background:transparent;
+	width: 20rem;
+	font-size: 1.5rem;
+	font-family: "Poppins", sans-serif;
+	border-bottom: 2px solid black;
+	height: 3rem;
+	margin: 1rem 0;
+}
+  
+.input-group textarea {
+	padding-top: 3rem;
+	max-width: 20rem;
+	max-height: 7rem;
+        
+}
+  
+.field-label {
+	position: absolute;
+	left: 0;
+	top: 2rem;
+	font-size: 1rem;
+	top: 0;
+}
+.field:focus ~label {
+	top: 0;
+	font-size: 0.7rem;
+}
+  
+.field:focus {
+	border-bottom: 1px solid black;
+}
+
+.btn-submit {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	width: 70%;
+	height: 2.5rem;
+	margin-top: 1rem;
+	letter-spacing: 0.2rem;
+	cursor: pointer;
+	color: white;
+	background:linear-gradient(45deg, #eeff00, #ac0000);
+	border-radius: 6px;
+}
+
+.btn-submit:hover{
+	background:linear-gradient(45deg,#ac0000, #7c7c7c);
+	color: white;
+}
+
+/* AVISO DE FUNCIONALIDADE*/
+.mouse{
+	text-align: center;
+	color:grey;
+	margin: 30px 0;
+}
+
+
+  
+  
