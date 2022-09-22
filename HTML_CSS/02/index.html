@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kaique Souza Santos">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title> Formulário </title>
+</head>
+
+<body class="centro">
+    <form action="#" method="POST">
+
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"> Nome </label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="campo">
+                    <label for="snome"> Sobrenome </label>
+                    <input type="text" name="snome" id="snome">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label class="escolha">
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label class="escolha">
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email"> E-mail </label>
+                <input type="text" name="email" style="width: 470px;" id="email">
+            </div>
+            <div class="campo">
+                <label for="telefone"> Telefone </label>
+                <input type="text" name="telefone" style="width: 470px;" id="telefone">
+            </div>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cidade"> Cidade </label>
+                    <input type="text" id="cidade" style="width: 321px;" name="cidade">
+                </div>
+                <div class="campo">
+                    <label for="estado"> Estado </label>
+                    <select name="estado" id="estado">
+						<OPTION VALUE="AC">AC </OPTION>
+						<OPTION VALUE="AL">AL </OPTION>
+						<OPTION VALUE="AP">AP </OPTION>
+						<OPTION VALUE="AM">AM</OPTION>
+						<OPTION VALUE="BA">BA </OPTION>
+						<OPTION VALUE="CE">CE </OPTION>
+						<OPTION VALUE="DF">DF </OPTION>
+						<OPTION VALUE="ES">ES</OPTION>
+						<OPTION VALUE="GO">GO </OPTION>
+						<OPTION VALUE="MA">MA</OPTION>
+						<OPTION VALUE="MT">MT </OPTION>
+						<OPTION VALUE="MS">MS </OPTION>
+						<OPTION VALUE="MG">MG </OPTION>
+						<OPTION VALUE="PA">PA</OPTION>
+						<OPTION VALUE="PB">PB</OPTION>
+						<OPTION VALUE="PR">PR </OPTION>
+						<OPTION VALUE="PE">PE </OPTION>
+						<OPTION VALUE="PI">PI</OPTION>
+						<OPTION VALUE="RJ">RJ </OPTION>
+						<OPTION VALUE="RN">RN</OPTION>
+						<OPTION VALUE="RS">RS </OPTION>
+						<OPTION VALUE="RO">RO </OPTION>
+						<OPTION VALUE="RR">RR</OPTION>
+						<OPTION VALUE="SC">SC </OPTION>
+						<OPTION VALUE="SP">SP </OPTION>
+						<OPTION VALUE="SE">SE </OPTION>
+						<OPTION VALUE="TO">TO</OPTION>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="mensagem"> Mensagem </label>
+                <textarea rows="5" cols="39" id="mensagem" name="mensagem" margin: 0px 185.399px 0px 0px; width: 407px;
+                    height: 92px;></textarea>
+            </div>
+            <div class="campo">
+                <label> Newsletter </label>
+                <label>
+                    <input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter da empresa
+                </label>
+            </div>
+            <button type="submit" class="botao submit"> Enviar </button>
+            <button type="reset" class="botao limpar"> Limpar </button>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
