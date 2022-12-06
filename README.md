@@ -13,18 +13,18 @@
 #
 ### CONTEUDO ABORDADO
 
-- HTML:
+- *HTML*:
   - Elementos, Atributos e Tags;
   - Estruturação, Semantica, Identação, Boas Praticas e SEO;
   - Importação de Arquivos e Consumo de API's.
 
-- CSS:
+- *CSS*:
   - Tipos de Folha de Estilo(Inline, Interno e Externo);
   - Seletores e Hierarquia/Especificidade;
   - Propriedades Avançadas(Estilização, Organização, Disposição dos Elementos, Animações);
   - Responsividade.
 
-- JAVASCRIPT:
+- *JAVASCRIPT*:
 	- Tipos de Dados Primitivos;
 	- *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
 	- *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
