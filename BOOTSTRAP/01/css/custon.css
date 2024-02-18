@@ -1,9 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body, html{
-    font-family: "Roboto Mono",monospace;
-}
-
-.imagem{
-    max-width: 220px;
-    max-height: 65px;
-}
