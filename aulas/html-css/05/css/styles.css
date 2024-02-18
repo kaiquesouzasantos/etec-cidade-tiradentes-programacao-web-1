@@ -1,0 +1,166 @@
+.container {
+    border: 1px solid black;
+    background-color: gainsboro;
+    width: 1200px;
+    height: 1800px;
+    margin: auto;
+    text-align: center;
+}
+
+.tophome {
+    background-color: brown;
+    width: 1190px;
+    height: 100px;
+    margin: 5px;
+}
+.logotipo{
+    background-color: lightgreen;
+    width: 98px;
+    height: 98px;
+    float: left;
+    margin: 1px;
+}
+
+.telefone{
+    background-color: yellowgreen;
+    width: 1088px;
+    height: 69px;
+    float: right;
+    margin-left: 1px;
+}
+
+.endereco{
+    background-color: green;
+    width: 1088px;
+    height: 29px;
+    float: right;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.banner {
+    background-color: gold;
+    width: 1190px;
+    height: 400px;
+    margin: 5px;
+}
+
+.menu {
+    background-color: blueviolet;
+    width: 1190px;
+    height: 80px;
+    margin: 5px;
+}
+
+.conteudo {
+    background-color: gray;
+    width: 1190px;
+    height: 1000px;
+    margin: 5px;
+}
+
+.quadro{
+    background-color: rgb(211, 0, 0);
+    width: 1180px;
+    height: 300px;
+    margin: 5px;
+    float: left;
+}
+
+.quadrop{
+    background-color:  #20B2AA;
+    border: 1px solid black;
+    width: 287px;
+    height: 290px;
+    margin-top: 4px;
+    margin-left: 5px;
+    float: left;
+}
+
+img.p{
+    border: 1px solid black;
+    margin: 4px;
+}
+
+.pr {
+    font-size: 30px;
+}
+
+.dc {
+    background-color: white;
+}
+
+.quadron{
+    background-color: olive;
+    width: 582px;
+    height: 360px;
+    margin-top: 5px;
+    margin-left: 5.5px;
+    float: left;
+}
+
+img.n{
+    margin-left: 4px;
+    margin-top: 2.8px;
+    float: left;
+}
+
+div.r{ 
+    width: 200px;
+    height: 45px;
+}
+
+.quadropa{
+    background-color: #DEB887;
+    width: 390px;
+    height: 147px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 1px;
+    float: left;
+}
+
+img.par{
+    margin-top:6px;
+}
+
+.noticia{
+    background-color: rgb(211, 0, 0);
+    width: 1180px;
+    height: 370px;
+    margin: 5px;
+    float: left;
+}
+
+.rodape {
+    background-color: teal;
+    width: 1190px;
+    height: 190px;
+    margin: 5px;
+}
+
+.rodapemap{
+    background-color: brown;
+    width: 1180px;
+    height: 155px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+div.colunapp{
+    background-color: white;
+    width: 310px;
+    height: 135px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.rodapecopy{
+    background-color:#FF6347;
+    width: 1180px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}

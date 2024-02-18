@@ -1,0 +1,24 @@
+<!DOCTYPE html> <!-- indica versão do HTML -->
+<html> <!-- inicio do arquivo HTML -->
+	<head> <!-- inicio do cabeçalho da página -->
+		<meta charset="UTF-8"> <!-- indicação do grupos de caracteres -->
+		<!-- título da página -->
+		<title> JavaScript | Aula 05</title>
+		<!-- metas tag para o motor de busca do Google -->
+		<meta name="author" content="Kaique Souza Santos">
+		<meta name="description" content="Formulário para LOGIN do Usuário">
+		<meta name="keywords" content="aula, JavaScrit, html, programação, programação web, validação">
+                <script src="js/externo.js" type="text/javascript" defer></script>
+		<script type="text/javascript">
+			function lerCookies(){}
+		</script>
+	</head> <!-- final do cabeçalho -->
+	<body onload="lerCookie()"> <!-- inicio do corpo da página -->
+		<script type="text/javascript">
+			var valor = document.cookie.split("=");
+			document.write("<p align=right>Seja bem vindo "+valor[2]+"(a)"+valor[1]+",");
+			document.write(" você logou no dia "+valor[3]+" ");
+			document.write(" às "+valor[4]+"</p>");
+		</script>
+	</body> <!-- fim do corpo da página -->
+</html> <!-- fim do arquivo HTML 

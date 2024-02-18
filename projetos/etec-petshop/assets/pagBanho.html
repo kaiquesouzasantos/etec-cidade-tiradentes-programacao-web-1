@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Etec Petshop | Agendamento</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="img/logo.png" alt="" class="nav__logo-img">
+                    Etec Petshop
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="../index.html#home" class="nav__link active-link">Home</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#servicos" class="nav__link">Serviços</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../index.html#sobre" class="nav__link">Sobre</a>
+                        </li>
+
+                        <a href="../index.html#contato" class="button button--ghost">Contato</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="img/logo.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <!--==================== FORM ====================-->
+            <section class="cont section" id="form">
+                <div class="contContainer pagContainer">
+                    <h2 class="section__title contTitle">Agendamento | Banho</h2>
+                
+                    <div class="contContent pagContent">
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <input type="hidden" name="accessKey" value="f02ab4ca-351e-4ae3-9e1e-c35ee22e36c9"> <!-- Requerimento -->
+                            <input type="hidden" name="redirectTo" value="http://etec199-2021-kaiquesouzasantos.epizy.com/1_projetos/1711/assets/pagAgendamento.html"> <!-- Constancia -->
+                            <input type="text" name="honeypot" style="display: none;"> <!-- Proteção de Spam -->
+                            <input type="text" name="$Agendamento" value="Banho" style="display: none;">
+                            <div class="contDirection input">
+                                <input type="text" name="$Nome" placeholder="Nome" class="contInput" minlength="3" pattern="[a-z\s]+$" required>
+                                <span class="error"></span>
+                            </div>
+                            <div class="contDirection input">
+                                <input type="text" name="$E-mail" placeholder="E-mail" class="contInput" required>
+                                <span class="error"></span>
+                            </div>
+                            <div class="contDirection input">
+                                <input type="text" name="$CPF" placeholder="CPF" class="contInput" required>
+                                <span class="error"></span>
+                            </div>
+                            <div class="contDirection input">
+                                <input type="number" name="$Telefone" placeholder="Telefone" class="contInput" minlength="3" required="required" maxlength="15" pattern="[0-9]+$">
+                                <span class="error"></span>
+                            </div>
+
+                            <div class="pagGrid">
+                                <div class="contDirection input">
+                                    <input type="text" name="$Raça" placeholder="Raça" class="contInput"> 
+                                </div>
+                                <div class="contDirection input">
+                                    <input type="date" name="$Data" min="2021-01-01" class="contInput pagDate" required>
+                                </div>
+                                <div class="contDirection input">
+                                    <input type="time" name="$Horario" min="08:00:00" max="20:00:00" class="contInput contDate" required>
+                                </div>
+                            </div>
+
+                            <div class="contDirection1">
+                                <textarea type="text" name="$Observação" placeholder="Observação" class="contInput1"></textarea>
+                            </div>
+                                <input name="submit" type="submit" class="contButton"></input>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="img/logo.png" alt="" class="footer__logo-img">
+                            Etec Petshop
+                        </a>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt'></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Mapa</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="../index.html#home" class="footer__link">Home</a>
+                            </li>
+                            <li>
+                                <a href="../index.html#servicos" class="footer__link">Serviços</a>
+                            </li>
+                            <li>
+                                <a href="../index.html#sobre" class="footer__link">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="../index.html#contato" class="footer__link">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Informações</h3>
+                        <ul>
+                            <li><a href="#" class="footer__link">Razão Social</a></li>
+                            <li><a href="#" class="footer__link">Trabalhe Conosco</a></li>
+                            <li><a href="#" class="footer__link">Politica de Privacidade</a></li>
+                            <li><a href="#" class="footer__link">Termos de Serviço</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__content">
+                        <h3 class="footer__title">Endereço</h3>
+                        <ul>
+                            <li>São Paulo - Brasil</li>
+                            <li>Dr. Arsène Lupin, 123</li>
+                            <li>111 - 111 - 111</li>
+                            <li>etecpetshop@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="footer__copy">&#169; Kaique - Karina - Lorena - Luana</span>
+
+                <img src="assets/img/footer1-img.png" alt="" class="footer__img-one">
+                <img src="assets/img/footer2-img.png" alt="" class="footer__img-two">
+            </footer>
+
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+            
+        <script src="js/scrollreveal.min.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
